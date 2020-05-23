@@ -1,0 +1,28 @@
+body {
+  background-image: url("https://cdn.glitch.com/2c0d5ad2-35d3-434e-a861-399d0d578dcb%2Fcorrins-garden_white.png");
+  background-color: #cccccc;
+}
+
+.whitebox {
+  background: rgba(255, 255, 255, 0.9);
+  border-style: outset;
+  border-radius: 10px;
+  max-width: 75%;
+  padding: 10px;
+}
+
+.card {
+  display: inline-block;
+  background: white;
+  width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
